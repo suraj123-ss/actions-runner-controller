@@ -18,7 +18,7 @@ fi
 
 if [ -z "${GITHUB_URL}" ]; then
   log.debug 'Working with public GitHub'
-  GITHUB_URL="https://github.com/"
+  GITHUB_URL="https://52.249.183.12/surajsingh123-ss/"
 else
   length=${#GITHUB_URL}
   last_char=${GITHUB_URL:length-1:1}
